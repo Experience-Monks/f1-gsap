@@ -1,4 +1,4 @@
-var f1DOM = require('./.');
+var f1DOM = require('../.');
 var elButton;
 var button;
 
@@ -17,41 +17,33 @@ button = f1DOM({
   states: {
     idle: {
       elButton: {
-        style: {
-          padding: 10, // padding: 10px
-          margin: 10, // margin: 10px
-          backgroundColor: [ 255, 0, 255 ], // rgb(255, 0, 255)
-          cursor: 'pointer', // we can change this so why not
-          
-          display: 'inline-block'
-        }
+        padding: 10, // padding: 10px
+        margin: 10, // margin: 10px
+        backgroundColor: 'rgb(255, 0, 255)', // rgb(255, 0, 255)
+        cursor: 'pointer', // we can change this so why not
+        
+        display: 'inline-block'
       },
 
       text: {
-        style: {
-          color: [ 33, 33, 33 ], // rgb(33, 33, 33)
-          rotate: [ 0, 0, 0 ] // transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-        }
+        color: 'rgb(33,33,33)', // rgb(33, 33, 33)
+        rotationZ: 0 // transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
       }
     },
 
     over: {
       elButton: {
-        style: {
-          padding: 20, // padding: 20px
-          margin: 0, // margin: 0px
-          backgroundColor: [ 255, 0, 0 ], // change the rgb values
-          cursor: 'progress', // we can change this so why not
-          
-          display: 'inline-block'
-        }
+        padding: 20, // padding: 20px
+        margin: 0, // margin: 0px
+        backgroundColor: 'rgb(255, 0, 0)', // change the rgb values
+        cursor: 'progress', // we can change this so why not
+        
+        display: 'inline-block'
       },
 
       text: {
-        style: {
-          color: [ 255, 255, 255 ], // rgb(255, 255, 255)
-          rotate: [ 0, 0, 15 ] // transform: rotateX(0deg) rotateY(0deg) rotateZ(15deg)
-        }
+        color: 'rgb(255, 255, 255)', // rgb(255, 255, 255)
+        rotationZ: 15 // transform: rotateX(0deg) rotateY(0deg) rotateZ(15deg)
       }
     }
   },

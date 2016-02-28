@@ -1,36 +1,38 @@
 {
-  "name": "f1-dom",
-  "version": "7.1.3",
-  "description": "f1 animation parsing functions for the dom",
+  "name": "f1-gsap",
+  "version": "0.1.1",
+  "description": "f1 animation parsing functions using GSAP",
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Mikko Haapoja",
-    "email": "me@mikkoh.com",
-    "url": "https://github.com/mikkoh"
+    "name": "Chang Wang",
+    "email": "cheapsteak@gmail.com",
+    "url": "https://github.com/cheapsteak"
   },
   "dependencies": {
     "array-union": "^1.0.1",
-    "dom-css": "^2.0.0",
-    "f1": "^7.0.0",
-    "gl-mat4": "^1.0.2",
-    "mat4-css-stringify": "^1.0.1"
+    "f1": "^7.0.0"
+  },
+  "peerDependencies": {
+    "gsap": "^1.18.2"
   },
   "devDependencies": {
+    "budo": "^8.0.4",
     "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "prova test.js"
+    "test1": "budo test/test-1.js",
+    "test2": "budo test/test-2.js"
   },
   "keywords": [
     "f1,ui,dom,html"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jam3/f1-dom.git"
+    "url": "git://github.com/jam3/f1-gsap.git"
   },
-  "homepage": "https://github.com/jam3/f1-dom",
+  "homepage": "https://github.com/jam3/f1-gsap",
   "bugs": {
-    "url": "https://github.com/jam3/f1-dom/issues"
+    "url": "https://github.com/jam3/f1-gsap/issues"
   }
 }

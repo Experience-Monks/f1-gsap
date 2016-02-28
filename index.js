@@ -6,7 +6,7 @@ var getTargetsFromStates = require('./lib/getTargetsFromStates');
 module.exports = function(settings) {
 
   if(!settings.states) {
-    throw new Error('You must define states before using f1-dom');
+    throw new Error('You must define states before using f1-gsap');
   }
 
   settings.el = settings.el || document.body;

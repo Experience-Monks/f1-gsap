@@ -35,6 +35,8 @@ npm install f1-gsap
 }
 ```
 
+See the [test](https://github.com/Jam3/f1-gsap/tree/master/test) folder for more examples
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/jam3/f1-gsap/blob/master/LICENSE.md) for details.

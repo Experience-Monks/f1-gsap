@@ -2,9 +2,11 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-`f1-gsap` was forked from [`f1-dom`](https://github.com/Jam3/f1-dom), which wraps [`f1`](http://npmjs.com/f1) to animate style's of dom elements.
+`f1-gsap` was forked from [`f1-dom`](https://github.com/Jam3/f1-dom), which wraps [`f1`](http://npmjs.com/f1) to animate style's of dom elements.  
 
-All styles properties are API-Compatible with GSAP. `TweenMax.set` is used as the parser.
+All style properties are API-compatible with GSAP.  
+
+`TweenMax.set()` is used as the parser.  
 
 ## Usage
 

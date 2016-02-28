@@ -17,6 +17,7 @@ button = f1DOM({
   states: {
     idle: {
       elButton: {
+        xPercent: 0,
         padding: 10, // padding: 10px
         margin: 10, // margin: 10px
         backgroundColor: 'rgb(255, 0, 255)', // rgb(255, 0, 255)
@@ -33,6 +34,7 @@ button = f1DOM({
 
     over: {
       elButton: {
+        xPercent: 30,
         padding: 20, // padding: 20px
         margin: 0, // margin: 0px
         backgroundColor: 'rgb(255, 0, 0)', // change the rgb values
